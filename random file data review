@@ -1,0 +1,7 @@
+git init
+git remote add origin https://github.com/<your-user>/<your-repo>.git
+git checkout -b main
+# add the file
+git add toad
+git commit -m "Add toad binary"
+git push -u origin main
